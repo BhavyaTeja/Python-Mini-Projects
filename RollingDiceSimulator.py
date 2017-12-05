@@ -1,4 +1,8 @@
+#importing the random library
+
 import random
+
+#defining the function for generating the random variables
 
 def dice():
     b = random.randint(1,6)
