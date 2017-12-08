@@ -7,8 +7,6 @@ response = urllib2.urlopen(word_site)
 txt = response.read()
 WORDS = txt.splitlines()
 guess = []
-count = 0
-
 word = random.choice(WORDS)
 
 def inWord(letter, word):
@@ -41,3 +39,4 @@ def getLetter():
 
 getLetter()
 print(word)
+
